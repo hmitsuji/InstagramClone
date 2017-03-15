@@ -60,12 +60,11 @@ class ImageSelectViewController: UIViewController, UIImagePickerControllerDelega
         adobeViewController.delegate = self
         self.present(adobeViewController, animated: true, completion:  nil)
       }
-    
-    }
-  
+    }    
     // 閉じる
     picker.dismiss(animated: true, completion: nil)
   }
+  
   
   func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
     // 閉じる
